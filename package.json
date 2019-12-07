@@ -1,14 +1,14 @@
 {
-  "name": "node-and-mysql",
+  "name": "employee-tracker",
   "version": "1.0.0",
-  "description": "CLI application to handle fictional companies inventory.",
+  "description": "Solution for managing a company's employees using node, inquirer, and MySQL",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andydurette/Node.js-and-MySQL.git"
+    "url": "git+https://github.com/andydurette/Employee-Tracker.git"
   },
   "keywords": [
     "node",
@@ -17,11 +17,11 @@
   "author": "Andy Durette",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/andydurette/Node.js-and-MySQL/issues"
+    "url": "https://github.com/andydurette/Employee-Tracker/issues"
   },
-  "homepage": "https://github.com/andydurette/Node.js-and-MySQL#readme",
+  "homepage": "https://github.com/andydurette/Employee-Tracker#readme",
   "dependencies": {
-    "cli-table2": "^0.2.0",
+    "console.table": "^0.10.0",
     "express": "^4.17.1",
     "inquirer": "^7.0.0",
     "mysql": "^2.17.1"
