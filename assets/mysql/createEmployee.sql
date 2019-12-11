@@ -1,9 +1,9 @@
 /* To create database run the scripts in this file */
-DROP DATABASE employeeTracker_db
+DROP DATABASE employeeTracker_db;
 
-CREATE DATABASE employeeTracker_db
+CREATE DATABASE employeeTracker_db;
 
-USE employeeTracker_db
+USE employeeTracker_db;
 
 DROP TABLE department ;
 
@@ -17,7 +17,7 @@ INSERT INTO department (name) VALUES
 ('Sales'),
 ('Engineering'),
 ('Finance'),
-('Legal');*/
+('Legal');
 
 
 CREATE TABLE role (
@@ -35,7 +35,7 @@ INSERT INTO role (title, salary, department_id) VALUES
 ('Software Enginner', 80000, 2),
 ('Accountant', 100000, 3),
 ('Legal Team Lead', 125000, 4),
-('Lawyer', 100000, 4); */
+('Lawyer', 100000, 4);
 
 
 CREATE TABLE employee (
