@@ -1,5 +1,3 @@
-
-
 INSERT INTO department
   (name)
 VALUES
@@ -7,9 +5,6 @@ VALUES
   ('Engineering'),
   ('Finance'),
   ('Legal');
-
-
-
 
 INSERT INTO role
   (title, salary, department_id)
@@ -21,9 +16,6 @@ VALUES
   ('Accountant', 100000, 3),
   ('Legal Team Lead', 125000, 4),
   ('Lawyer', 100000, 4);
-
-
-
 
 INSERT INTO employee
   (first_name, last_name, role_id, manager_id)
